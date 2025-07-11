@@ -1,6 +1,10 @@
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+  background: #f5f8ff;
+}
+
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -118,4 +122,73 @@ nav h3 {
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* Review Section Styles */
+.reviewer-section-headline {
+  color: #252432;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.reviewer-cards-container {
+  display: flex;
+  gap: 20px;
+}
+
+.reviewer-card {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
+}
+
+.reviewer-card-contents {
+  padding: 24px;
+}
+
+.icon-images img {
+  width: 20px;
+  height: 20px;
+}
+
+.reviewer-title {
+  color: #252432;
+  font-size: 28px;
+  font-family: Inter;
+}
+
+.reviewer-description {
+  color: #1e1e1e;
+  font-size: 20px;
+  font-family: Raleway;
+  font-weight: 600;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reviewer-img img {
+  width: 40px;
+  height: 40px;
+}
+
+.reviewer-name {
+  color: #757575;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  margin: 0;
+}
+
+.date {
+  color: #b3b3b3;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 4px;
 }
