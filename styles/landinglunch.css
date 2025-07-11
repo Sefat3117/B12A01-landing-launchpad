@@ -1,6 +1,46 @@
 /* Font Family */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+.banner-container {
+  background-image: url(../Assets/Hero-bg.png);
+}
+
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+}
+
+nav h3 {
+  color: #4e47ff;
+  font-family: Inter;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.primary-btn {
+  height: 48px;
+  padding: 12px 36px;
+  border-radius: 10px;
+  background: #4e47ff;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.banner {
+  text-align: center;
+  padding: 150px 0px;
+}
+
+.banner h1 {
+  color: #252432;
+  font-family: Raleway;
+  font-size: 65px;
+  font-weight: 700;
 }
